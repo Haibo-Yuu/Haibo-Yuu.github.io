@@ -9,8 +9,9 @@ tag:
 - components
 - extra
 category: blog
-author: jamesfoster
+author: haibo
 description: Markdown summary with different options
+hidden: true # don't count this post in blog pagination
 ---
 
 ## Summary:
