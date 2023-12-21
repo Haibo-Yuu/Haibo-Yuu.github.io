@@ -1,7 +1,7 @@
 ---
 title: "Pyinstaller使用注意事项"
 layout: post
-date: 2023-12-21 10:23
+date: 2023-12-20 10:23
 tag: pyinstaller
 headerImage: false
 description: "Pyinstaller using notes"
