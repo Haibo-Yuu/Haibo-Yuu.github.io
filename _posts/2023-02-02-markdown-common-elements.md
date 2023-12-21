@@ -7,7 +7,7 @@ headerImage: false
 tag:
 - markdown
 - elements
-star: true
+# star: true
 category: blog
 author: haibo
 description: Markdown summary with different options
@@ -26,10 +26,15 @@ This note **demonstrates** some of what [Markdown][some/link] is *capable of doi
 ---
 
 {% highlight raw %}
+
 # Heading
+
 ## Heading
+
 ### Heading
+
 #### Heading
+
 {% endhighlight %}
 
 ---
@@ -43,10 +48,11 @@ This note **demonstrates** some of what [Markdown][some/link] is *capable of doi
 3. Number 3
 
 {% highlight raw %}
+
 1. Item 1
 2. A second item
 3. Number 3
-{% endhighlight %}
+   {% endhighlight %}
 
 ### Unordered list
 
@@ -56,11 +62,12 @@ This note **demonstrates** some of what [Markdown][some/link] is *capable of doi
 * And there's more...
 
 {% highlight raw %}
+
 * An item
 * Another item
 * Yet another item
 * And there's more...
-{% endhighlight %}
+  {% endhighlight %}
 
 ---
 
@@ -71,8 +78,9 @@ This note **demonstrates** some of what [Markdown][some/link] is *capable of doi
 > Here is a quote. What this is should be self explanatory. Quotes are automatically indented when they are used.
 
 {% highlight raw %}
+
 > Here is a quote. What this is should be self explanatory.
-{% endhighlight raw %}
+> {% endhighlight raw %}
 
 ---
 
@@ -85,10 +93,11 @@ URLs can be made in a handful of ways:
 * Sometimes you just want a URL like <https://google.com/>.
 
 {% highlight raw %}
+
 * A named link to [MarkItDown][3].
 * Another named link to [MarkItDown](https://google.com/)
 * Sometimes you just want a URL like <https://google.com/>.
-{% endhighlight %}
+  {% endhighlight %}
 
 ---
 
@@ -99,6 +108,7 @@ It's sometimes handy for breaking things up.
 
 {% highlight raw %}
 ---
+
 {% endhighlight %}
 
 ---
@@ -117,10 +127,12 @@ Markdown can also contain images. I'll need to add something here sometime.
 
 {% highlight raw %}
 ![Markdowm Image][/image/url]
+
 <figcaption class="caption">Photo by John Doe</figcaption>
 {% endhighlight %}
 
 ![Markdowm Image][5]
+
 <figcaption class="caption">Photo by John Doe</figcaption>
 
 *Bigger Images*?
@@ -139,6 +151,7 @@ A HTML Example:
 
 {% highlight html %}
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
