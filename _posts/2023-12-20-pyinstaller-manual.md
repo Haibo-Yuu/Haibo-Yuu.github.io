@@ -4,7 +4,6 @@ layout: post
 date: 2023-12-21 10:23
 tag: pyinstaller
 headerImage: false
-hidden: true # don't count this post in blog pagination
 description: "Pyinstaller using notes"
 category: blog
 author: haibo
